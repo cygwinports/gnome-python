@@ -1,0 +1,4 @@
+category: Gnome Python
+requires: cygwin ORBit2 glib2 gnome-vfs2 libbonobo2 python python-gobject2 python-orbit
+sdesc: "Python bindings for the GNOME VFS library"
+ldesc: "Python bindings for the GNOME VFS library"

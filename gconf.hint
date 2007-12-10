@@ -1,0 +1,4 @@
+category: Gnome Python
+requires: cygwin GConf2 python python-gobject2
+sdesc: "Python bindings for the GNOME GConf library"
+ldesc: "Python bindings for the GNOME GConf library"

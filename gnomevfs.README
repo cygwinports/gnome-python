@@ -1,0 +1,107 @@
+python-gnomevfs2
+------------------------------------------
+Python bindings for the GNOME VFS library.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  ORBit2-2.14.10-1
+  glib2-2.14.4-1
+  gnome-vfs2-2.20.1-1
+  libbonobo2-2.20.0-1
+  python-2.5.1-3
+  python-gobject2-2.14.0-1
+  python-orbit-2.14.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.pygtk.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/gnome/sources/gnome-python/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-python-2.20.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+     unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-python-2.20.1-X.cygport all
+
+This will create:
+  /usr/src/gnome-python-2.20.1-X-src.tar.bz2
+  /usr/src/gnome-python-2.20.1-X.tar.bz2
+  /usr/src/python-bonobo2-2.20.1-X.tar.bz2
+  /usr/src/python-gconf2-2.20.1-X.tar.bz2
+  /usr/src/python-gnome2-2.20.1-X.tar.bz2
+  /usr/src/python-gnomecanvas2-2.20.1-X.tar.bz2
+  /usr/src/python-gnomevfs2-2.20.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/include/gnome-python-2.0/pygnomevfs.h
+  /usr/include/gnome-python-2.0/pygnomevfsbonobo.h
+  /usr/lib/gnome-vfs-2.0/modules/cygpythonmethod.dll
+  /usr/lib/gnome-vfs-2.0/modules/libpythonmethod.la
+  /usr/lib/pkgconfig/gnome-python-2.0.pc
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/vfs.py
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/vfs.pyc
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/vfs.pyo
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/__init__.py
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/__init__.pyc
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/__init__.pyo
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/_gnomevfs.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/_gnomevfs.la
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/gnomevfsbonobo.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/gnomevfsbonobo.la
+  /usr/share/doc/Cygwin/python-gnomevfs2-2.20.1.README
+
+------------------
+
+Port Notes:
+
+----- version 2.20.1-1 -----
+Version bump for GNOME 2.20.
+
+----- version 2.18.2-1 -----
+Version bump for GNOME 2.18, built for python-2.5.
+
+----- version 2.16.2-1 -----
+Version bump for GNOME 2.16.
+
+----- version 2.12.3-1 -----
+Version bump.
+
+----- version 2.12.2-1 -----
+Version bump for GNOME 2.12.
+gnome-python packages are now modular with cygport-0.1.91.
+
+----- version 2.10.0-1 -----
+Version bump for GNOME 2.10.
+This version contains bindings for only the GNOME development libraries;
+other bindings are available separately.
+
+----- version 2.6.2-1 -----
+Version bump, built against python-2.4.
+
+----- version 2.6.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

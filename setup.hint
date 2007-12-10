@@ -1,0 +1,4 @@
+category: Gnome Python
+requires: python-bonobo2 python-gconf2 python-gnome2 python-gnomecanvas2 python-gnomevfs2
+sdesc: "Python GNOME platform bindings (meta-package)"
+ldesc: "Python bindings for the GNOME platform libraries"

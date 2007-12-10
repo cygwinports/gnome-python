@@ -1,0 +1,4 @@
+category: Gnome Python
+requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 libgnomecanvas2 python python-gobject2 python-gtk2
+sdesc: "Python bindings for the GNOME canvas library"
+ldesc: "Python bindings for the GNOME canvas library"

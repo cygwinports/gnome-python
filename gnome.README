@@ -1,0 +1,106 @@
+python-gnome2
+------------------------------------------
+Python bindings for the GNOME libraries.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gtk2-x11-2.12.2-1
+  libbonoboui2-2.20.0-1
+  libgnome2-2.20.1.1-1
+  libgnomeui2-2.20.1.1-1
+  libpopt0-1.10.4-1
+  python-2.5.1-3
+  python-bonobo2-2.20.1-1
+  python-gconf2-2.20.1-1
+  python-gnomecanvas2-2.20.1-1
+  python-gnomevfs2-2.20.1-1
+  python-gobject2-2.14.0-1
+  python-gtk2-2.12.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.pygtk.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/gnome/sources/gnome-python/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-python-2.20.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+     unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-python-2.20.1-X.cygport all
+
+This will create:
+  /usr/src/gnome-python-2.20.1-X-src.tar.bz2
+  /usr/src/gnome-python-2.20.1-X.tar.bz2
+  /usr/src/python-bonobo2-2.20.1-X.tar.bz2
+  /usr/src/python-gconf2-2.20.1-X.tar.bz2
+  /usr/src/python-gnome2-2.20.1-X.tar.bz2
+  /usr/src/python-gnomecanvas2-2.20.1-X.tar.bz2
+  /usr/src/python-gnomevfs2-2.20.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/__init__.py
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/__init__.pyc
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/__init__.pyo
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/_gnome.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/_gnome.la
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/ui.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/ui.la
+  /usr/share/doc/Cygwin/python-gnome2-2.20.1.README
+  /usr/share/pygtk/2.0/defs/gnome-types.defs
+  /usr/share/pygtk/2.0/defs/gnome.defs
+  /usr/share/pygtk/2.0/defs/ui.defs
+
+------------------
+
+Port Notes:
+
+----- version 2.20.1-1 -----
+Version bump for GNOME 2.20.
+
+----- version 2.18.2-1 -----
+Version bump for GNOME 2.18, built for python-2.5.
+
+----- version 2.16.2-1 -----
+Version bump for GNOME 2.16.
+
+----- version 2.12.2-1 -----
+Version bump for GNOME 2.12.
+gnome-python packages are now modular with cygport-0.1.91.
+
+----- version 2.10.0-1 -----
+Version bump for GNOME 2.10.
+This version contains bindings for only the GNOME development libraries;
+other bindings are available separately.
+
+----- version 2.6.2-1 -----
+Version bump, built against python-2.4.
+
+----- version 2.6.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
