@@ -4,28 +4,28 @@ Python bindings for the GNOME Bonobo libraries.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  ORBit2-2.14.13-1
-  glib2-2.16.3-1
-  gtk2-x11-2.12.10-1
-  libbonobo2-2.22.0-1
-  libbonoboui2-2.22.0-1
-  libgnome2-2.22.0-1
-  libgnomecanvas2-2.20.1.1-1
-  python-2.5.2-2
-  python-gnomecanvas2-2.22.1-1
-  python-gobject2-2.14.2-1
-  python-gtk2-2.12.1-1
-  python-orbit-2.14.3-1
+  libbonobo2_0-2.24.0-1
+  libbonoboui2_0-2.24.0-1
+  libglib2.0_0-2.18.3-1
+  libgnome2_0-2.24.1-1
+  libgnomecanvas2_0-2.20.1.1-2
+  libgtk2.0_0-2.14.5-1
+  libORBit2_0-2.14.16-1
+  python-2.5.2-4
+  python-gnomecanvas2-2.22.3-1
+  python-gobject2-2.15.4-1
+  python-gtk2-2.13.0-1
+  python-orbit-2.24.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.12-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool-2.2.2-2
+  libtool-2.2.6a-1
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
@@ -39,20 +39,20 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-python-2.22.1-X-src.tar.bz2
+  unpack gnome-python-2.22.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
      unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-python-2.22.1-X.cygport all
+  cygport ./gnome-python-2.22.3-X.cygport all
 
 This will create:
-  /usr/src/gnome-python-2.22.1-X-src.tar.bz2
-  /usr/src/gnome-python-2.22.1-X.tar.bz2
-  /usr/src/python-bonobo2-2.22.1-X.tar.bz2
-  /usr/src/python-gconf2-2.22.1-X.tar.bz2
-  /usr/src/python-gnome2-2.22.1-X.tar.bz2
-  /usr/src/python-gnomecanvas2-2.22.1-X.tar.bz2
-  /usr/src/python-gnomevfs2-2.22.1-X.tar.bz2
+  /usr/src/gnome-python-2.22.3-X-src.tar.bz2
+  /usr/src/gnome-python-2.22.3-X.tar.bz2
+  /usr/src/python-bonobo2-2.22.3-X.tar.bz2
+  /usr/src/python-gconf2-2.22.3-X.tar.bz2
+  /usr/src/python-gnome2-2.22.3-X.tar.bz2
+  /usr/src/python-gnomecanvas2-2.22.3-X.tar.bz2
+  /usr/src/python-gnomevfs2-2.22.3-X.tar.bz2
 
 -------------------------------------------
 
@@ -78,6 +78,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.22.3-1 -----
+Version bump.
 
 ----- version 2.22.1-1 -----
 Version bump.
