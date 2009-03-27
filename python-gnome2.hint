@@ -1,5 +1,5 @@
 category: Gnome Python
-requires: cygwin libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libbonoboui2_0 libgnome2_0 libgnomeui2_0 libpopt0 python python-bonobo2 python-gconf2 python-gnomecanvas2 python-gnomevfs2 python-gtk2 python-gobject2
+requires: cygwin libgcc1 libglib2.0_0 libgdk_pixbuf2.0_0 libgtk2.0_0 libbonoboui2_0 libgnome2_0 libgnomeui2_0 libpopt0 python python-bonobo2 python-gconf2 python-gnomecanvas2 python-gnomevfs2 python-gtk2 python-gobject2
 external-source: gnome-python
 sdesc: "Python bindings for the GNOME libraries"
 ldesc: "Python bindings for the GNOME libraries"

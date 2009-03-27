@@ -1,9 +1,7 @@
 inherit pygtk
 
-PATCH_URI="2.22.3-libtool22.patch"
-
 PKG_NAMES="${PN}"
-gnome_python_CONTENTS="usr/share/doc/${P}/"
+gnome_python_CONTENTS="usr/share/doc/"
 
 for p in bonobo gconf gnomecanvas gnomevfs gnome
 do
@@ -31,6 +29,4 @@ do
 			declare python_${p}2_CONTENTS+=" ${PYGTK_DATADIR#/}/defs/gnome*
 			                                 ${PYGTK_DATADIR#/}/defs/ui*" ;;
 	esac
-
-	declare python_${p}2_CONTENTS+=" usr/share/doc/Cygwin/python-${p}2-${PV}.README"
 done

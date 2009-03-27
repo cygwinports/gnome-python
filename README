@@ -1,0 +1,149 @@
+gnome-python
+------------------------------------------
+Python bindings for the GNOME libraries.
+
+Runtime requirements:
+  cygwin-1.7.0-44
+  libbonobo2_0-2.24.1-1
+  libbonoboui2_0-2.24.1-1
+  libgconf2_4-2.26.0-1
+  libgdk_pixbuf2.0_0-2.16.0-1
+  libglib2.0_0-2.20.0-1
+  libgnome2_0-2.26.0-1
+  libgnomecanvas2_0-2.26.0-1
+  libgnomeui2_0-2.24.1-1
+  libgtk2.0_0-2.16.0-1
+  libORBit2_0-2.14.17-1
+  libpopt0-1.6.4-4
+  python-2.5.4-1
+  python-gobject2-2.16.1-10
+  python-gtk2-2.14.1-1
+  python-orbit-2.24.0-10
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.6a-2
+  make-3.81-2
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.pygtk.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/gnome/sources/gnome-python/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-python-2.26.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+     unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-python-2.26.0-X.cygport all
+
+This will create:
+  /usr/src/gnome-python-2.26.0-X-src.tar.bz2
+  /usr/src/gnome-python-2.26.0-X.tar.bz2
+  /usr/src/python-bonobo2-2.26.0-X.tar.bz2
+  /usr/src/python-gconf2-2.26.0-X.tar.bz2
+  /usr/src/python-gnome2-2.26.0-X.tar.bz2
+  /usr/src/python-gnomecanvas2-2.26.0-X.tar.bz2
+  /usr/src/python-gnomevfs2-2.26.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+(python-bonobo2)
+  /usr/lib/python2.5/site-packages/gtk-2.0/bonobo/__init__.py
+  /usr/lib/python2.5/site-packages/gtk-2.0/bonobo/__init__.pyc
+  /usr/lib/python2.5/site-packages/gtk-2.0/bonobo/__init__.pyo
+  /usr/lib/python2.5/site-packages/gtk-2.0/bonobo/_bonobo.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/bonobo/_bonobo.la
+  /usr/lib/python2.5/site-packages/gtk-2.0/bonobo/activation.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/bonobo/activation.la
+  /usr/lib/python2.5/site-packages/gtk-2.0/bonobo/ui.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/bonobo/ui.la
+  /usr/share/pygtk/2.0/argtypes/bonobo-arg-types.py
+  /usr/share/pygtk/2.0/argtypes/bonobo-arg-types.pyc
+  /usr/share/pygtk/2.0/argtypes/bonobo-arg-types.pyo
+  /usr/share/pygtk/2.0/defs/bonobo-types.defs
+  /usr/share/pygtk/2.0/defs/bonobo.defs
+  /usr/share/pygtk/2.0/defs/bonoboui-types.defs
+  /usr/share/pygtk/2.0/defs/bonoboui.defs
+
+(python-gconf2)
+  /usr/lib/python2.5/site-packages/gtk-2.0/gconf.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gconf.la
+  /usr/share/pygtk/2.0/argtypes/gconf-arg-types.py
+  /usr/share/pygtk/2.0/argtypes/gconf-arg-types.pyc
+  /usr/share/pygtk/2.0/argtypes/gconf-arg-types.pyo
+  /usr/share/pygtk/2.0/defs/gconf.defs
+
+(python-gnome2)
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/__init__.py
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/__init__.pyc
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/__init__.pyo
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/_gnome.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/_gnome.la
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/ui.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/ui.la
+  /usr/share/pygtk/2.0/defs/gnome-types.defs
+  /usr/share/pygtk/2.0/defs/gnome.defs
+  /usr/share/pygtk/2.0/defs/ui.defs
+
+(python-gnomecanvas2)
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/canvas.py
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/canvas.pyc
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/canvas.pyo
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomecanvas.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomecanvas.la
+  /usr/share/pygtk/2.0/defs/canvas.defs
+
+(python-gnomevfs2)
+  /usr/include/gnome-python-2.0/pygnomevfs.h
+  /usr/include/gnome-python-2.0/pygnomevfsbonobo.h
+  /usr/lib/gnome-vfs-2.0/modules/cygpythonmethod.dll
+  /usr/lib/gnome-vfs-2.0/modules/libpythonmethod.la
+  /usr/lib/pkgconfig/gnome-python-2.0.pc
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/vfs.py
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/vfs.pyc
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnome/vfs.pyo
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/__init__.py
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/__init__.pyc
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/__init__.pyo
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/_gnomevfs.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/_gnomevfs.la
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/gnomevfsbonobo.dll
+  /usr/lib/python2.5/site-packages/gtk-2.0/gnomevfs/gnomevfsbonobo.la
+  /usr/share/gtk-doc/html/pygnomevfs/class-gnomevfs-context.html
+  /usr/share/gtk-doc/html/pygnomevfs/class-gnomevfs-directoryhandle.html
+  /usr/share/gtk-doc/html/pygnomevfs/class-gnomevfs-drive.html
+  /usr/share/gtk-doc/html/pygnomevfs/class-gnomevfs-fileinfo.html
+  /usr/share/gtk-doc/html/pygnomevfs/class-gnomevfs-handle.html
+  /usr/share/gtk-doc/html/pygnomevfs/class-gnomevfs-uri.html
+  /usr/share/gtk-doc/html/pygnomevfs/class-gnomevfs-volume.html
+  /usr/share/gtk-doc/html/pygnomevfs/gnomevfs-class-reference.html
+  /usr/share/gtk-doc/html/pygnomevfs/gnomevfs-constants.html
+  /usr/share/gtk-doc/html/pygnomevfs/gnomevfs-functions.html
+  /usr/share/gtk-doc/html/pygnomevfs/index.html
+  /usr/share/gtk-doc/html/pygnomevfs/index.sgml
+  /usr/share/gtk-doc/html/pygnomevfs/pygnomevfs.devhelp
+
+------------------
+
+Port Notes:
+
+----- version 2.26.0-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
