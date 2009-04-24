@@ -3,19 +3,19 @@ gnome-python
 Python bindings for the GNOME libraries.
 
 Runtime requirements:
-  cygwin-1.7.0-44
+  cygwin-1.7.0-45
   libbonobo2_0-2.24.1-1
   libbonoboui2_0-2.24.1-1
   libgconf2_4-2.26.0-1
-  libgdk_pixbuf2.0_0-2.16.0-1
-  libglib2.0_0-2.20.0-1
+  libgdk_pixbuf2.0_0-2.16.1-1
+  libglib2.0_0-2.20.1-1
   libgnome2_0-2.26.0-1
   libgnomecanvas2_0-2.26.0-1
   libgnomeui2_0-2.24.1-1
-  libgtk2.0_0-2.16.0-1
+  libgtk2.0_0-2.16.1-1
   libORBit2_0-2.14.17-1
   libpopt0-1.6.4-4
-  python-2.5.4-1
+  python-2.5.4-10
   python-gobject2-2.16.1-10
   python-gtk2-2.14.1-1
   python-orbit-2.24.0-10
@@ -28,9 +28,9 @@ Build requirements:
   cygport-0.9.6-1
   gawk-3.1.6-2
   gcc4-core-4.3.2-2
-  libtool-2.2.6a-2
+  libtool-2.2.7a-12
   make-3.81-2
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -42,20 +42,20 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-python-2.26.0-X-src.tar.bz2
+  unpack gnome-python-2.26.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
      unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-python-2.26.0-X.cygport all
+  cygport ./gnome-python-2.26.1-X.cygport all
 
 This will create:
-  /usr/src/gnome-python-2.26.0-X-src.tar.bz2
-  /usr/src/gnome-python-2.26.0-X.tar.bz2
-  /usr/src/python-bonobo2-2.26.0-X.tar.bz2
-  /usr/src/python-gconf2-2.26.0-X.tar.bz2
-  /usr/src/python-gnome2-2.26.0-X.tar.bz2
-  /usr/src/python-gnomecanvas2-2.26.0-X.tar.bz2
-  /usr/src/python-gnomevfs2-2.26.0-X.tar.bz2
+  /usr/src/gnome-python-2.26.1-X-src.tar.bz2
+  /usr/src/gnome-python-2.26.1-X.tar.bz2
+  /usr/src/python-bonobo2-2.26.1-X.tar.bz2
+  /usr/src/python-gconf2-2.26.1-X.tar.bz2
+  /usr/src/python-gnome2-2.26.1-X.tar.bz2
+  /usr/src/python-gnomecanvas2-2.26.1-X.tar.bz2
+  /usr/src/python-gnomevfs2-2.26.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -140,6 +140,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.26.1-1 -----
+Version bump.
 
 ----- version 2.26.0-1 -----
 Initial release of GNOME 2.26 for Cygwin 1.7.
