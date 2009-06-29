@@ -1,5 +1,5 @@
 category: Gnome Python
-requires: cygwin libbonobo2_0 libbonoboui2_0 libgcc1 libglib2.0_0 libgtk2.0_0 libgnome2_0 libgnomecanvas2_0 libORBit2_0 python python-gnomecanvas2 python-gtk2 python-gobject2 python-orbit
+requires: libbonobo2_0 libbonoboui2_0 libgcc1 libglib2.0_0 libgtk2.0_0 libgnome2_0 libgnomecanvas2_0 libORBit2_0 python python-gnomecanvas2 python-gtk2 python-gobject2 python-orbit
 external-source: gnome-python
 sdesc: "Python bindings for the GNOME Bonobo libraries"
 ldesc: "Python bindings for the GNOME Bonobo libraries"
