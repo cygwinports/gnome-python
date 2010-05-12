@@ -3,34 +3,34 @@ gnome-python
 Python bindings for the GNOME libraries.
 
 Runtime requirements:
-  cygwin-1.7.0-62
+  cygwin-1.7.5-1
   libbonobo2_0-2.24.2-1
   libbonoboui2_0-2.24.2-1
-  libgcc1-4.3.4-1
-  libgconf2_4-2.28.0-1
-  libgdk_pixbuf2.0_0-2.18.3-1
-  libglib2.0_0-2.22.2-1
+  libgcc1-4.3.4-3
+  libgconf2_4-2.28.2-1
+  libgdk_pixbuf2.0_0-2.18.6-1
+  libglib2.0_0-2.22.4-2
   libgnome2_0-2.28.0-1
   libgnomecanvas2_0-2.26.0-1
   libgnomeui2_0-2.24.2-1
   libgnomevfs2_0-2.24.2-1
-  libgtk2.0_0-2.18.3-1
+  libgtk2.0_0-2.18.6-1
   libORBit2_0-2.14.17-1
   libpopt0-1.6.4-4
-  python-2.5.4-10
-  python-gobject2.0-2.20.0-1
-  python-gtk2.0-2.16.0-1
-  python-orbit-2.24.0-10
+  python-2.6.5-1
+  python-gobject2.0-2.20.0-2
+  python-gtk2.0-2.16.0-2
+  python-orbit-2.24.0-11
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-10
-  automake1.11-1.11-10
-  binutils-2.19.51-1
-  cygport-0.9.10-1
+  autoconf2.5-2.65-1
+  automake1.11-1.11.1-1
+  binutils-2.20.51-1
+  cygport-0.9.83-1
   gawk-3.1.7-1
-  gcc4-core-4.3.4-1
-  libtool-2.2.7a-14
+  gcc4-core-4.3.4-3
+  libtool-2.2.7a-15
   make-3.81-2
   pkg-config-0.23b-10
   sed-4.1.5-2
@@ -44,24 +44,27 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-python-2.28.0-X-src.tar.bz2
+  unpack gnome-python-2.28.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
      unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-python-2.28.0-X.cygport all
+  cygport ./gnome-python-2.28.1-X.cygport all
 
 This will create:
-  /usr/src/gnome-python-2.28.0-X-src.tar.bz2
-  /usr/src/gnome-python-2.28.0-X.tar.bz2
-  /usr/src/python-bonobo2-2.28.0-X.tar.bz2
-  /usr/src/python-gconf2-2.28.0-X.tar.bz2
-  /usr/src/python-gnome2-2.28.0-X.tar.bz2
-  /usr/src/python-gnomecanvas2-2.28.0-X.tar.bz2
-  /usr/src/python-gnomevfs2-2.28.0-X.tar.bz2
+  /usr/src/gnome-python-2.28.1-X-src.tar.bz2
+  /usr/src/gnome-python-2.28.1-X.tar.bz2
+  /usr/src/python-bonobo2-2.28.1-X.tar.bz2
+  /usr/src/python-gconf2-2.28.1-X.tar.bz2
+  /usr/src/python-gnome2-2.28.1-X.tar.bz2
+  /usr/src/python-gnomecanvas2-2.28.1-X.tar.bz2
+  /usr/src/python-gnomevfs2-2.28.1-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.28.1-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 2.28.0-1 -----
 Version bump for GNOME 2.28.
