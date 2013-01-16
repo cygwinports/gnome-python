@@ -1,5 +1,0 @@
-category: Gnome Python
-requires: libgcc1 libglib2.0_0 libgconf2_4 python python-gobject2
-external-source: gnome-python
-sdesc: "Python bindings for the GNOME GConf library"
-ldesc: "Python bindings for the GNOME GConf library"

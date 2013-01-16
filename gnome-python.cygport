@@ -1,0 +1,32 @@
+inherit pygtk
+
+NAME="gnome-python"
+VERSION=2.28.1
+RELEASE=2
+CATEGORY="Python"
+SUMMARY="Python GNOME platform bindings (meta-package)"
+DESCRIPTION="Python bindings for the GNOME platform libraries"
+
+PKG_NAMES="${PN} python-bonobo2 python-gconf2 python-gnomecanvas2 python-gnomevfs2 python-gnome2"
+gnome_python_CONTENTS="usr/share/doc/"
+python_bonobo2_SUMMARY="Python bindings for the GNOME Bonobo libraries"
+python_bonobo2_REQUIRES="python-gnomecanvas2 python-gtk2.0"
+python_bonobo2_CONTENTS="${PYGTK_LIBDIR#/}/bonobo* ${PYGTK_DATADIR#/}/argtypes/bonobo*
+                         ${PYGTK_DATADIR#/}/defs/bonobo*"
+python_gconf2_SUMMARY="Python bindings for the GNOME GConf library"
+python_gconf2_REQUIRES="python-gobject"
+python_gconf2_CONTENTS="${PYGTK_LIBDIR#/}/gconf* ${PYGTK_DATADIR#/}/argtypes/gconf*
+                        ${PYGTK_DATADIR#/}/defs/gconf*"
+python_gnomecanvas2_SUMMARY="Python bindings for the GNOME canvas library"
+python_gnomecanvas2_REQUIRES="python-gobject python-gtk2.0"
+python_gnomecanvas2_CONTENTS="${PYGTK_LIBDIR#/}/gnomecanvas* ${PYGTK_LIBDIR#/}/gnome/canvas*
+			      ${PYGTK_DATADIR#/}/defs/canvas*"
+python_gnomevfs2_SUMMARY="Python bindings for the GNOME VFS library"
+python_gnomevfs2_REQUIRES="python-gobject python-orbit"
+python_gnomevfs2_CONTENTS="usr/include/ usr/lib/gnome-vfs-2.0/
+                           ${PYGTK_LIBDIR#/}/gnomevfs* ${PYGTK_LIBDIR#/}/gnome/vfs*
+                           usr/lib/pkgconfig/ usr/share/gtk-doc/html/pygnomevfs/"
+python_gnome2_SUMMARY="Python bindings for the GNOME libraries"
+python_gnome2_REQUIRES="python-bonobo2 python-gconf2 python-gnomecanvas2 python-gnomevfs2 python-gtk2.0"
+python_gnome2_CONTENTS="--exclude=*canvas* --exclude=*vfs* ${PYGTK_LIBDIR#/}/gnome*
+                        ${PYGTK_DATADIR#/}/defs/gnome* ${PYGTK_DATADIR#/}/defs/ui*"
