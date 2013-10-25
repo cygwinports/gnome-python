@@ -2,7 +2,7 @@ inherit pygtk
 
 NAME="gnome-python"
 VERSION=2.28.1
-RELEASE=2
+RELEASE=3
 CATEGORY="Python"
 SUMMARY="Python GNOME platform bindings (meta-package)"
 DESCRIPTION="Python bindings for the GNOME platform libraries"
